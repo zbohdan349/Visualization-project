@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="227.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.hashMapControl.Contain">
+    <children>
+        <RadioButton fx:id="tog2" layoutX="24.0" layoutY="104.0" mnemonicParsing="false" text="Перевірка на існування значення">
+         <toggleGroup>
+                <ToggleGroup fx:id="group" />
+         </toggleGroup></RadioButton>
+        <Button fx:id="btnOk" layoutX="338.0" layoutY="176.0" mnemonicParsing="false" onAction="#ok" prefHeight="38.0" prefWidth="40.0" text="ок" />
+        <Label layoutX="8.0" layoutY="2.0" prefHeight="25.0" prefWidth="206.0" text="Оберіть метод додавання елемента" />
+        <RadioButton fx:id="tog1" layoutX="24.0" layoutY="39.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="334.0" selected="true" text="Перевірка на існування ключа" toggleGroup="$group" AnchorPane.topAnchor="39.0" />
+        <HBox fx:id="met1" layoutX="24.0" layoutY="69.0">
+            <children>
+                <Label prefHeight="25.0" prefWidth="57.0" text="Значення" />
+                <TextField fx:id="value_1" prefHeight="25.0" prefWidth="219.0" />
+            </children>
+        </HBox>
+        <Pane fx:id="met2" disable="true" layoutX="24.0" layoutY="130.0">
+            <children>
+                <HBox prefHeight="25.0" prefWidth="334.0">
+                    <children>
+                        <Label prefHeight="25.0" prefWidth="57.0" text="Значення" />
+                        <TextField fx:id="value_2" prefHeight="25.0" prefWidth="219.0" />
+                    </children>
+                </HBox>
+                <HBox />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

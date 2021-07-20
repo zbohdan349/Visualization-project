@@ -1,0 +1,33 @@
+#ArrayListElement{
+    -fx-pref-width:160;
+    -fx-max-height:80;
+    -fx-border-insets: 5;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: #dedede;
+    -fx-alignment:center;
+    -fx-border-color:#3498db ;
+    -fx-border-width: 4;
+}
+.label{
+      -fx-font-size: 30 pt;
+     -fx-font-family: "Segoe UI Light";
+     -fx-text-fill: #dedede;
+
+
+}
+#label1{
+      -fx-font-size: 15 pt;
+     -fx-font-family: "Segoe UI Light";
+
+
+
+}
+#ArrayListMain{
+    -fx-pref-width:160;
+    -fx-max-height:80;
+    -fx-border-insets: 5;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: #dedede;
+    -fx-alignment:center;
+
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="my-box" alignment="CENTER" prefHeight="405.0" prefWidth="825.0" stylesheets="@../../style.css" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.treeSetControl.TreeSet">
+    <children>
+        <BorderPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+            <bottom>
+                <HBox alignment="CENTER" prefHeight="111.0" prefWidth="825.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="clear" mnemonicParsing="false" onAction="#clear" prefHeight="60.0" prefWidth="80.0" text="clear">
+                     <HBox.margin>
+                        <Insets left="6.0" right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="pollLast" mnemonicParsing="false" onAction="#pollLast" prefHeight="60.0" prefWidth="80.0" text="pollLast">
+                     <HBox.margin>
+                        <Insets left="6.0" right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="pollFirst" mnemonicParsing="false" onAction="#pollFirst" prefHeight="60.0" prefWidth="80.0" text="pollFirst">
+                     <HBox.margin>
+                        <Insets left="6.0" right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="last" mnemonicParsing="false" onAction="#last" prefHeight="60.0" prefWidth="80.0" text="last">
+                     <HBox.margin>
+                        <Insets left="6.0" right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="first" mnemonicParsing="false" onAction="#first" prefHeight="60.0" prefWidth="80.0" text="first">
+                     <HBox.margin>
+                        <Insets left="6.0" right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="floor" mnemonicParsing="false" onAction="#floor" prefHeight="60.0" prefWidth="80.0" text="floor">
+                     <HBox.margin>
+                        <Insets left="6.0" right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="ceiling" mnemonicParsing="false" onAction="#ceiling" prefHeight="60.0" prefWidth="80.0" text="ceiling">
+                     <HBox.margin>
+                        <Insets left="6.0" right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="add" mnemonicParsing="false" onAction="#add" prefHeight="60.0" prefWidth="80.0" text="add">
+                     <HBox.margin>
+                        <Insets left="6.0" right="6.0" />
+                     </HBox.margin></Button>
+               </children></HBox>
+            </bottom>
+            <center>
+            <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+               <children>
+                      <HBox fx:id="ColView" alignment="CENTER" prefHeight="232.0" prefWidth="849.0">
+                </HBox>
+               </children>
+            </VBox>
+            </center>
+         <top>
+            <Label text="TreeSet" textFill="WHITE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </top>
+        </BorderPane>
+    </children>
+</VBox>

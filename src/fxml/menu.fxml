@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox prefHeight="9.0" prefWidth="600.0" stylesheets="@style.css">
+    <children>
+        <MenuBar prefHeight="44.0" prefWidth="606.0" HBox.hgrow="ALWAYS">
+
+        </MenuBar>
+
+    </children>
+</HBox>
+

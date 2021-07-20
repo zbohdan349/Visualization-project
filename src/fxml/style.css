@@ -1,0 +1,39 @@
+.button {
+    -fx-font: 16px "Segoe UI Light";
+    -fx-color:white;
+    -fx-padding: 10;
+    -fx-border-color:#3498db ;
+    -fx-border-width: 4;
+    -fx-background :none;
+    -fx-text-fill: #dedede;
+    -fx-border-radius:24;
+     }
+.button:hover{
+    -fx-border-color: green;
+}
+.button:focused{
+    -fx-border-color: red;
+    -fx-background-color :inherit;
+}
+#my-box{
+    -fx-background-color :#111428;
+}
+
+
+.menu-bar{
+    -fx-background-color :#191919;
+}
+.menu-bar .label {
+    -fx-font-size: 25 pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: #dedede;
+ }
+ .menu:hover {
+     -fx-background-color: #bc784e;
+ }
+
+ .menu-item .label{
+    -fx-font-size: 25 pt;
+    -fx-label-line-length: 8;
+    -fx-background-color: #cc66ff;
+ }

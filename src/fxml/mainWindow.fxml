@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="my-box" alignment="CENTER" prefHeight="459.0" prefWidth="685.0" stylesheets="@style.css" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.Controller">
+   <children>
+      <Button fx:id="btnArrayList" alignment="CENTER" mnemonicParsing="false" onAction="#openArrayList" prefHeight="60.0" prefWidth="130.0" text="ArrayList">
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+         <padding>
+            <Insets left="2.0" right="2.0" />
+         </padding>
+      </Button>
+      <Button fx:id="btnPriority" mnemonicParsing="false" onAction="#openPriority" prefHeight="60.0" prefWidth="130.0" text="LinkedList">
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="btnTreeSet" alignment="CENTER" mnemonicParsing="false" onAction="#openTreeSet" prefHeight="60.0" prefWidth="130.0" text="TreeSet">
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+         <padding>
+            <Insets left="2.0" right="2.0" />
+         </padding>
+      </Button>
+      <Button fx:id="btnHashSet" alignment="CENTER" mnemonicParsing="false" onAction="#openHashSet" prefHeight="60.0" prefWidth="130.0" text="HashSet">
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+         <padding>
+            <Insets left="2.0" right="2.0" />
+         </padding>
+      </Button>
+      <Button fx:id="btnHashMap" alignment="CENTER" mnemonicParsing="false" onAction="#openHashMap" prefHeight="60.0" prefWidth="130.0" text="HashMap">
+         <padding>
+            <Insets left="2.0" right="2.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
